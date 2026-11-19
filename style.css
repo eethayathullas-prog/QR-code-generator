@@ -1,0 +1,84 @@
+/* Basic page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* White box in the center */
+.container {
+  background-color: white;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: #333;
+}
+
+/* Text box */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Size and color in one row */
+.options {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+select {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+input[type="color"] {
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* QR code area */
+#qrcode {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Used to hide things */
+.hidden {
+  display: none;
+}
+
+#message {
+  color: red;
+}
